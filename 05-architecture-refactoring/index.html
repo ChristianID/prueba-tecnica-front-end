@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05-arquitecura-refactoring</title>
+    <style>
+        *, html {
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            padding: 40px;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div><img src="" width="50" alt="Can use a preload image" class="no-avatar"></div>
+        <div><img src="" width="50" alt="Can use a preload image" class="no-avatar"></div>
+        <div><img src="" width="50" alt="Can use a preload image" class="no-avatar"></div>
+        <div><img src="" width="50" alt="Can use a preload image" class="no-avatar"></div>
+        <div><img src="" width="50" alt="Can use a preload image" class="no-avatar"></div>
+
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+
+        new LettersAvatars('.no-avatar')
+
+    </script>
+</body>
+</html>
